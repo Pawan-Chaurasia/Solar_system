@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+body{
+    background-color: black;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solar_system{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.neptune{
+    width: 720px;
+    height: 720px;
+    border: 1px solid white;
+    animation: rev 20s linear  infinite;
+}
+.uranus{
+    width: 645px;
+    height: 645px;
+    border: 1px solid white;
+    animation: rev 21s linear  infinite;
+}
+.saturn{
+    width: 570px;
+    height: 570px;
+    border: 1px solid white;
+    animation: rev 23s linear  infinite;
+}
+.jupiter{
+    width: 460px;
+    height: 460px;
+    border: 1px solid white;
+    animation: rev 28s linear  infinite;
+}
+.mars{
+    width: 370px;
+    height: 370px;
+    border: 1px solid white;
+    animation: rev 32s linear  infinite;
+}
+.earth{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    animation: rev 35s linear  infinite;
+}
+.venus{
+    width: 230px;
+    height: 230px;
+    border: 1px solid white;
+    animation: rev 40s linear  infinite;
+}
+.mercury{
+    width: 170px;
+    height: 170px;
+    border: 1px solid white;
+    animation: rev 50s linear  infinite;
+    
+}
+.sun{
+    box-shadow: 0px 0px 60px rgb(250, 250, 46);
+    background-color: yellow;
+    width: 40px;
+    height: 40px ;
+
+
+
+}
+.planet8_align{
+    width: 720px;
+    height: 720px;
+    display: relative;
+}
+.planet7_align{
+    width: 645px;
+    height: 645px;
+    display: relative;
+}
+.planet6_align{
+    width: 570px;
+    height: 570px;
+    display: relative;
+}
+.planet5_align{
+    width: 460px;
+    height: 460px;
+    display: relative;
+}
+.planet4_align{
+    width: 370px;
+    height: 370px;
+    display: relative;
+}
+.planet3_align{
+    width: 300px;
+    height: 300px;
+    display: relative;
+}
+.planet2_align{
+    width: 230px;
+    height: 230px;
+    display: relative;
+}
+.planet1_align{
+    width: 170px;
+    height: 170px;
+    display: relative;
+}
+
+.planet8{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(40, 8, 247);
+    position: absolute;
+    left: -15px;
+}
+
+.planet7{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(94, 139, 253);
+    position: absolute;
+    top: -15px;
+}
+.ring{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -19px;
+    box-shadow: 0px 0px 15px burlywood;
+}
+.planet6{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(73, 73, 73);
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index: 2;
+}
+.planet5{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(236, 85, 85);
+    position: absolute;
+    right: -22px;
+}
+.planet4{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    position: absolute;
+    top: -11px;
+}
+.planet3{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(43, 213, 251);
+    position: absolute;
+    left: -15px;
+}
+.planet2{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(234, 176, 100);
+    position: absolute;
+    bottom: -12px;
+}
+.planet1{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(69, 68, 68);
+    position: absolute;
+    right: -12px;
+}
+
+@keyframes rev{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}
